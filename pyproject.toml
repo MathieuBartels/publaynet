@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "publaynet"
+version = "0.1.0"
+description = ""
+authors = ["Mathieu Bartels <mathieubartels@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+torch = "==2.8.0"
+torchvision = "==0.20.0"
+tensorboard = "==2.20.0"
+wandb = "*"
+matplotlib = "*"
+pillow = "*"
+transformers = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
